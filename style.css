@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #404040;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-left: 20px;
+  text-align: center;
+  color: #f2c744;
+  
+}
+li {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #f2c744;
+  padding: 10px;
+  width: 450px;
+  margin-bottom: 10px;
+  color: #404040;
+}
+li button {
+  
+  background: 0;
+  border: 0;
+  cursor: pointer;
+}
+input {
+  padding: 7px;
+  width: 300px;
+  margin-left: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0;
+}
+h1 button {
+  cursor: pointer;
+  padding: 7px;
+  width: 100px;
+  margin-left: -8px;
+  border: 0;
+  background-color: #f2c744;
+  color: #404040;
+}
+li button:hover {
+color: red;
+}
+.save-btn:hover {
+  color: greenyellow;
+  }
+  .edit-btn:hover {
+    color: green;
+    }
+h1 .add{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* li.cancel {
+  opacity: 0;
+} */
+ .cancel-btn{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+.edit-btn{
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+}
+#log{
+  color: #f2c744;
+  background: 0;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 1;
+  bottom: 15px;
+  left: 30px;
+  font-size: 15px;
+}
+#log:hover{
+  color: yellowgreen;
+}
+h2{
+  color: #f2c744;
+  text-align: center;
+}
