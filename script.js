@@ -6,8 +6,7 @@ const usernameDisplay = document.getElementById("username-display");
 function createli(text) {
   const li = document.createElement("li");
   li.textContent = text;
-  li.className = "li1";
-
+  li.textContent.className='text';
   const cancelBtn = document.createElement("button");
   cancelBtn.innerHTML = '<i class="fas fa-trash"></i>';
   cancelBtn.className = "cancel-btn";
